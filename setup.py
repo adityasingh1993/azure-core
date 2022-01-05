@@ -70,9 +70,9 @@ setup(
         'requests>=2.18.4',
         'six>=1.11.0',
     ],
-    extras_require={
+#     extras_require={
         
-        ":python_version<'3.4'": ['enum34>=1.0.4'],
-        ":python_version<'3.5'": ['typing'],
-    }
+#         ":python_version<'3.4'": ['enum34>=1.0.4'],
+#         ":python_version<'3.5'": ['typing'],
+#     }
 )
